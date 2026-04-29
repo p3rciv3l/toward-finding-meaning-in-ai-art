@@ -32,8 +32,16 @@ artifacts/
 hf_image_gen/image/*
 !hf_image_gen/image/.gitkeep
 
-# Large FLUX run outputs kept locally or in external storage
-flux_unzipped/
+# Large FLUX run outputs. Only the curated latent tensors and VAE-decoded
+# sequence are allowed into git, and those are tracked through Git LFS.
+flux_unzipped/*
+!flux_unzipped/metadata.json
+!flux_unzipped/prompt.txt
+!flux_unzipped/latents/
+!flux_unzipped/latents/*.pt
+!flux_unzipped/vae_decoded_latents_vast/
+!flux_unzipped/vae_decoded_latents_vast/manifest.json
+!flux_unzipped/vae_decoded_latents_vast/*.png
 remote_vae_decoded_latents/
 flux_latents_only.zip
 flux_vae_decoded_latents_vast.zip

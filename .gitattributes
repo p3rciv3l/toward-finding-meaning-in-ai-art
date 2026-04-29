@@ -1,1 +1,2 @@
-*.lfs-test filter=lfs diff=lfs merge=lfs -text
+flux_unzipped/vae_decoded_latents_vast/*.png filter=lfs diff=lfs merge=lfs -text
+flux_unzipped/latents/*.pt filter=lfs diff=lfs merge=lfs -text

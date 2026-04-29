@@ -1,0 +1,513 @@
+{
+  "records": [
+    {
+      "step": 0,
+      "latent_path": "flux_unzipped/latents/step_000.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_000.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 22.04,
+      "batch_size": 1
+    },
+    {
+      "step": 1,
+      "latent_path": "flux_unzipped/latents/step_001.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_001.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 22.272,
+      "batch_size": 1
+    },
+    {
+      "step": 2,
+      "latent_path": "flux_unzipped/latents/step_002.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_002.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 22.104,
+      "batch_size": 1
+    },
+    {
+      "step": 3,
+      "latent_path": "flux_unzipped/latents/step_003.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_003.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 21.922,
+      "batch_size": 1
+    },
+    {
+      "step": 4,
+      "latent_path": "flux_unzipped/latents/step_004.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_004.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 21.41,
+      "batch_size": 1
+    },
+    {
+      "step": 5,
+      "latent_path": "flux_unzipped/latents/step_005.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_005.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 21.898,
+      "batch_size": 1
+    },
+    {
+      "step": 6,
+      "latent_path": "flux_unzipped/latents/step_006.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_006.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 20.649,
+      "batch_size": 1
+    },
+    {
+      "step": 7,
+      "latent_path": "flux_unzipped/latents/step_007.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_007.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 20.96,
+      "batch_size": 1
+    },
+    {
+      "step": 8,
+      "latent_path": "flux_unzipped/latents/step_008.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_008.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 21.155,
+      "batch_size": 1
+    },
+    {
+      "step": 9,
+      "latent_path": "flux_unzipped/latents/step_009.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_009.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 22.052,
+      "batch_size": 1
+    },
+    {
+      "step": 10,
+      "latent_path": "flux_unzipped/latents/step_010.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_010.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 20.96,
+      "batch_size": 1
+    },
+    {
+      "step": 11,
+      "latent_path": "flux_unzipped/latents/step_011.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_011.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 22.556,
+      "batch_size": 1
+    },
+    {
+      "step": 12,
+      "latent_path": "flux_unzipped/latents/step_012.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_012.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 21.663,
+      "batch_size": 1
+    },
+    {
+      "step": 13,
+      "latent_path": "flux_unzipped/latents/step_013.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_013.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 21.882,
+      "batch_size": 1
+    },
+    {
+      "step": 14,
+      "latent_path": "flux_unzipped/latents/step_014.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_014.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 22.343,
+      "batch_size": 1
+    },
+    {
+      "step": 15,
+      "latent_path": "flux_unzipped/latents/step_015.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_015.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 22.093,
+      "batch_size": 1
+    },
+    {
+      "step": 16,
+      "latent_path": "flux_unzipped/latents/step_016.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_016.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 22.759,
+      "batch_size": 1
+    },
+    {
+      "step": 17,
+      "latent_path": "flux_unzipped/latents/step_017.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_017.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 21.242,
+      "batch_size": 1
+    },
+    {
+      "step": 18,
+      "latent_path": "flux_unzipped/latents/step_018.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_018.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 23.157,
+      "batch_size": 1
+    },
+    {
+      "step": 19,
+      "latent_path": "flux_unzipped/latents/step_019.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_019.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 21.838,
+      "batch_size": 1
+    },
+    {
+      "step": 20,
+      "latent_path": "flux_unzipped/latents/step_020.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_020.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 22.116,
+      "batch_size": 1
+    },
+    {
+      "step": 21,
+      "latent_path": "flux_unzipped/latents/step_021.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_021.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 22.191,
+      "batch_size": 1
+    },
+    {
+      "step": 22,
+      "latent_path": "flux_unzipped/latents/step_022.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_022.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 21.019,
+      "batch_size": 1
+    },
+    {
+      "step": 23,
+      "latent_path": "flux_unzipped/latents/step_023.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_023.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 20.854,
+      "batch_size": 1
+    },
+    {
+      "step": 24,
+      "latent_path": "flux_unzipped/latents/step_024.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_024.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 23.237,
+      "batch_size": 1
+    },
+    {
+      "step": 25,
+      "latent_path": "flux_unzipped/latents/step_025.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_025.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 22.603,
+      "batch_size": 1
+    },
+    {
+      "step": 26,
+      "latent_path": "flux_unzipped/latents/step_026.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_026.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 22.65,
+      "batch_size": 1
+    },
+    {
+      "step": 27,
+      "latent_path": "flux_unzipped/latents/step_027.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_027.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 21.515,
+      "batch_size": 1
+    },
+    {
+      "step": 28,
+      "latent_path": "flux_unzipped/latents/step_028.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_028.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 21.607,
+      "batch_size": 1
+    },
+    {
+      "step": 29,
+      "latent_path": "flux_unzipped/latents/step_029.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_029.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 21.113,
+      "batch_size": 1
+    },
+    {
+      "step": 30,
+      "latent_path": "flux_unzipped/latents/step_030.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_030.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 22.166,
+      "batch_size": 1
+    },
+    {
+      "step": 31,
+      "latent_path": "flux_unzipped/latents/step_031.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_031.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 20.61,
+      "batch_size": 1
+    },
+    {
+      "step": 32,
+      "latent_path": "flux_unzipped/latents/step_032.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_032.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 20.973,
+      "batch_size": 1
+    },
+    {
+      "step": 33,
+      "latent_path": "flux_unzipped/latents/step_033.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_033.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 21.313,
+      "batch_size": 1
+    },
+    {
+      "step": 34,
+      "latent_path": "flux_unzipped/latents/step_034.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_034.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 20.739,
+      "batch_size": 1
+    },
+    {
+      "step": 35,
+      "latent_path": "flux_unzipped/latents/step_035.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_035.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 20.52,
+      "batch_size": 1
+    },
+    {
+      "step": 36,
+      "latent_path": "flux_unzipped/latents/step_036.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_036.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 21.537,
+      "batch_size": 1
+    },
+    {
+      "step": 37,
+      "latent_path": "flux_unzipped/latents/step_037.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_037.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 23.048,
+      "batch_size": 1
+    },
+    {
+      "step": 38,
+      "latent_path": "flux_unzipped/latents/step_038.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_038.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 20.917,
+      "batch_size": 1
+    },
+    {
+      "step": 39,
+      "latent_path": "flux_unzipped/latents/step_039.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_039.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 22.941,
+      "batch_size": 1
+    },
+    {
+      "step": 40,
+      "latent_path": "flux_unzipped/latents/step_040.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_040.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 22.349,
+      "batch_size": 1
+    },
+    {
+      "step": 41,
+      "latent_path": "flux_unzipped/latents/step_041.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_041.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 22.88,
+      "batch_size": 1
+    },
+    {
+      "step": 42,
+      "latent_path": "flux_unzipped/latents/step_042.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_042.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 22.98,
+      "batch_size": 1
+    },
+    {
+      "step": 43,
+      "latent_path": "flux_unzipped/latents/step_043.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_043.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 22.297,
+      "batch_size": 1
+    },
+    {
+      "step": 44,
+      "latent_path": "flux_unzipped/latents/step_044.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_044.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 22.473,
+      "batch_size": 1
+    },
+    {
+      "step": 45,
+      "latent_path": "flux_unzipped/latents/step_045.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_045.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 22.615,
+      "batch_size": 1
+    },
+    {
+      "step": 46,
+      "latent_path": "flux_unzipped/latents/step_046.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_046.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 22.996,
+      "batch_size": 1
+    },
+    {
+      "step": 47,
+      "latent_path": "flux_unzipped/latents/step_047.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_047.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 22.103,
+      "batch_size": 1
+    },
+    {
+      "step": 48,
+      "latent_path": "flux_unzipped/latents/step_048.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_048.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 22.447,
+      "batch_size": 1
+    },
+    {
+      "step": 49,
+      "latent_path": "flux_unzipped/latents/step_049.pt",
+      "image_path": "flux_unzipped/vae_decoded_latents/step_049.png",
+      "mode": "vae",
+      "width": 1024,
+      "height": 1536,
+      "duration_seconds": 22.128,
+      "batch_size": 1
+    }
+  ],
+  "source_latents_dir": "flux_unzipped/latents",
+  "output_dir": "flux_unzipped/vae_decoded_latents",
+  "model_id": "black-forest-labs/FLUX.1-Krea-dev",
+  "width": 1024,
+  "height": 1536,
+  "vae_scale_factor": 8,
+  "device": "cpu",
+  "dtype": "torch.bfloat16",
+  "duration_seconds": 22.757
+}

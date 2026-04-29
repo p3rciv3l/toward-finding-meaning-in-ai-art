@@ -1,0 +1,279 @@
+{
+  "status": "complete",
+  "created_at": "2026-04-28T22:12:24.124480+00:00",
+  "execution_mode": "colab_local_diffusers",
+  "model_id": "black-forest-labs/FLUX.1-Krea-dev",
+  "prompt": "hyperreal close portrait of a woman meeting the viewer's gaze head-on, eyes steady and lucid beneath a helmet cropped tight at the frame's edge. her face carries a dusting of white frost along the lashes and temples, lips slightly parted as if mid-breath, fine moisture glinting where the cold meets warmth. the light comes from behind a low golden sun cutting through icy air wrapping her in a soft halo while highlights cling delicately to the frost edges. her skin reveals honest micro detail: faint pores, subsurface glow on the cheeks, and a natural sheen from the chill. the palette moves between warm amber and arctic blue. every surface behaves realistically matte skin diffusing light, frost refracting it, the atmosphere crisp yet breathable. the mood is tender intensity, a quiet warmth radiating through the ice. captured on an 85mm lens at f/2.0, focus locked to her eyes, shallow depth isolating her face in luminous realism.\n--v 7 --ar 2:3 --raw --profile",
+  "seed": 0,
+  "width": 1024,
+  "height": 1536,
+  "num_inference_steps": 50,
+  "guidance_scale": 4.5,
+  "max_sequence_length": 512,
+  "torch_dtype": "torch.bfloat16",
+  "use_cpu_offload": true,
+  "output": {
+    "run_dir": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z",
+    "prompt_path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/prompt.txt",
+    "metadata_path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/metadata.json",
+    "latents_dir": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/latents",
+    "decoded_latents_dir": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents",
+    "final_image_path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/final image/image.png"
+  },
+  "duration_seconds_decode_previews": 34.438,
+  "decoded_latents_saved": [
+    {
+      "step": 0,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_000.png",
+      "mode": "normalized_fallback:RuntimeError"
+    },
+    {
+      "step": 1,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_001.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 2,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_002.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 3,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_003.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 4,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_004.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 5,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_005.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 6,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_006.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 7,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_007.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 8,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_008.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 9,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_009.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 10,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_010.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 11,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_011.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 12,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_012.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 13,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_013.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 14,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_014.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 15,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_015.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 16,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_016.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 17,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_017.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 18,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_018.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 19,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_019.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 20,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_020.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 21,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_021.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 22,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_022.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 23,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_023.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 24,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_024.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 25,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_025.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 26,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_026.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 27,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_027.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 28,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_028.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 29,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_029.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 30,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_030.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 31,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_031.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 32,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_032.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 33,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_033.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 34,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_034.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 35,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_035.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 36,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_036.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 37,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_037.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 38,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_038.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 39,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_039.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 40,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_040.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 41,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_041.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 42,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_042.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 43,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_043.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 44,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_044.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 45,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_045.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 46,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_046.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 47,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_047.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 48,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_048.png",
+      "mode": "normalized_fallback:ValueError"
+    },
+    {
+      "step": 49,
+      "path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_049.png",
+      "mode": "normalized_fallback:ValueError"
+    }
+  ],
+  "decoded_latent_file_count": 50,
+  "final_image_path": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/final image/image.png",
+  "final_image_recovered_from_decoded_latent": "/content/flux_krea_runs/flux_krea_colab_seed0_1024x1536_50steps_20260428T221044Z/decoded_latents/step_049.png"
+}
