@@ -1,0 +1,293 @@
+models:
+  - name: gemini-3-flash-preview-think
+    model: gemini-3-flash-preview
+    client: gemini
+    use_batch_api: false
+    batch_mode: never
+
+  - name: gemini-3.1-flash-lite-preview-think
+    model: gemini-3.1-flash-lite-preview
+    client: gemini
+    use_batch_api: false
+    batch_mode: never
+
+  - name: gemini-3.1-flash-image-preview-think
+    model: gemini-3.1-flash-image-preview
+    client: gemini
+    use_batch_api: false
+    batch_mode: never
+    response_modalities: [TEXT, IMAGE]
+    image_config:
+      aspect_ratio: "2:3"
+      image_size: 2K
+
+  - name: gemini-2.5-flash
+    model: gemini-2.5-flash
+    client: gemini
+
+  - name: gemini-2.5-pro
+    model: gemini-2.5-pro
+    client: gemini
+
+  - name: gemini-2.5-flash-image
+    model: gemini-2.5-flash-image
+    client: gemini
+    response_modalities: [TEXT, IMAGE]
+
+  - name: flux-dev-fal
+    backend: fal
+    model: fal-ai/flux/dev
+    timeout: 120.0
+    fal:
+      use_batch_api: true
+      batch_model: null
+      request_mode: submit
+      path: ""
+      stream_path: /stream
+      realtime_path: /realtime
+      start_timeout: null
+      client_timeout: null
+      hint: null
+      priority: normal
+      webhook_url: null
+      with_logs: false
+      poll_interval: 0.1
+      queue_status_mode: polling
+      fal_max_queue_length: null
+      disable_retries: false
+      disable_fallback: false
+      store_io: true
+      object_lifecycle_preference: null
+      headers: {}
+      upload_repository: fal_v3
+      upload_fallback_repository: [cdn, fal]
+      upload_image_format: jpeg
+      use_jwt: true
+      token_expiration: 120
+      max_buffering: null
+      use_openapi_defaults: true
+      webhook_verify: true
+      webhook_jwks_url: https://rest.fal.ai/.well-known/jwks.json
+      webhook_timestamp_leeway_seconds: 300
+      webhook_jwks_cache_seconds: 86400
+      prompt: null
+      input: null
+      text: null
+      texts: null
+      prompts: null
+      model_arg: null
+      seed: null
+      num_images: 1
+      image_size: landscape_4_3
+      aspect_ratio: null
+      resolution: null
+      duration: null
+      negative_prompt: null
+      enable_safety_checker: true
+      enable_safety_checks: null
+      enable_prompt_expansion: null
+      expand_prompt: null
+      output_format: jpeg
+      sync_mode: false
+      limit_generations: null
+      enable_web_search: null
+      thinking_level: null
+      temperature: null
+      top_p: null
+      top_k: null
+      max_tokens: null
+      repetition_penalty: null
+      sample_rate: null
+      voice: null
+      temperature_audio: null
+      temperature_text: null
+      top_k_audio: null
+      top_k_text: null
+      num_extra_steps: null
+      acoustic_cfg_scale: null
+      noise_temperature: null
+      num_inference_steps: 28
+      speed_up_factor: null
+      audio_url: null
+      video_url: null
+      image_url: null
+      image_urls: null
+      images_data_url: null
+      transcript: null
+      language: null
+      language_code: null
+      use_pnc: null
+      tag_audio_events: null
+      diarize: null
+      txt_color: null
+      txt_font: null
+      font_size: null
+      stroke_width: null
+      left_align: null
+      top_align: null
+      refresh_interval: null
+      audio: null
+      image: null
+      video: null
+      file_url: null
+
+  - name: moondream-next-fal
+    backend: fal
+    model: fal-ai/moondream-next
+    timeout: 120.0
+    fal:
+      use_batch_api: true
+      batch_model: fal-ai/moondream-next/batch
+      request_mode: submit
+      path: ""
+      stream_path: /stream
+      realtime_path: /realtime
+      start_timeout: null
+      client_timeout: null
+      hint: null
+      priority: normal
+      webhook_url: null
+      with_logs: false
+      poll_interval: 0.1
+      queue_status_mode: polling
+      fal_max_queue_length: null
+      disable_retries: false
+      disable_fallback: false
+      store_io: true
+      object_lifecycle_preference: null
+      headers: {}
+      upload_repository: fal_v3
+      upload_fallback_repository: [cdn, fal]
+      upload_image_format: jpeg
+      use_jwt: true
+      token_expiration: 120
+      max_buffering: null
+      use_openapi_defaults: true
+      webhook_verify: true
+      webhook_jwks_url: https://rest.fal.ai/.well-known/jwks.json
+      webhook_timestamp_leeway_seconds: 300
+      webhook_jwks_cache_seconds: 86400
+      prompt: null
+      input: null
+      text: null
+      texts: null
+      prompts: null
+      model_arg: null
+      seed: null
+      num_images: null
+      image_size: null
+      aspect_ratio: null
+      resolution: null
+      duration: null
+      negative_prompt: null
+      enable_safety_checker: null
+      enable_safety_checks: null
+      enable_prompt_expansion: null
+      expand_prompt: null
+      output_format: null
+      sync_mode: null
+      limit_generations: null
+      enable_web_search: null
+      thinking_level: null
+      temperature: null
+      top_p: null
+      top_k: null
+      max_tokens: 64
+      repetition_penalty: null
+      sample_rate: null
+      voice: null
+      temperature_audio: null
+      temperature_text: null
+      top_k_audio: null
+      top_k_text: null
+      num_extra_steps: null
+      acoustic_cfg_scale: null
+      noise_temperature: null
+      num_inference_steps: null
+      speed_up_factor: null
+      audio_url: null
+      video_url: null
+      image_url: null
+      image_urls: null
+      images_data_url: null
+      transcript: null
+      language: null
+      language_code: null
+      use_pnc: null
+      tag_audio_events: null
+      diarize: null
+      txt_color: null
+      txt_font: null
+      font_size: null
+      stroke_width: null
+      left_align: null
+      top_align: null
+      refresh_interval: null
+      audio: null
+      image: null
+      video: null
+      file_url: null
+
+  - name: stepx-edit2
+    backend: fal
+    model: fal-ai/stepx-edit2
+    timeout: 240.0
+    fal:
+      use_batch_api: false
+      request_mode: subscribe
+      with_logs: true
+      poll_interval: 0.5
+      enable_thinking_mode: true
+      enable_reflection_mode: true
+      output_format: png
+      num_inference_steps: 50
+      guidance_scale: 6.0
+      sync_mode: false
+      enable_safety_checker: true
+
+  - name: z-image-turbo
+    backend: fal
+    model: fal-ai/z-image/turbo
+    timeout: 180.0
+    fal:
+      use_batch_api: false
+      request_mode: subscribe
+      with_logs: true
+      poll_interval: 0.5
+      image_size:
+        width: 1024
+        height: 1536
+      num_images: 1
+      num_inference_steps: 8
+      enable_prompt_expansion: true
+      acceleration: regular
+      output_format: png
+      sync_mode: false
+      enable_safety_checker: true
+
+  - name: HunyuanImage-3.0-Instruct
+    backend: fal
+    model: fal-ai/hunyuan-image/v3/instruct/text-to-image
+    timeout: 240.0
+    fal:
+      use_batch_api: false
+      request_mode: subscribe
+      with_logs: true
+      poll_interval: 0.5
+      image_size:
+        width: 1024
+        height: 1536
+      num_images: 1
+      num_inference_steps: 28
+      guidance_scale: 7.5
+      enable_prompt_expansion: true
+      output_format: png
+      sync_mode: false
+      enable_safety_checker: true
+
+  - name: glm-4.5-air-free
+    model: z-ai/glm-4.5-air:free
+    temperature: 0.15
+    top_p: 0.75
+    top_k: 50
+    min_p: 0.06

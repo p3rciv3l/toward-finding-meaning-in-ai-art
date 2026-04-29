@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openrouter-harness"
+version = "0.1.0"
+description = "Minimal OpenRouter harness cloned from character_elicitation"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "cryptography",
+    "fal-client",
+    "python-dotenv",
+    "pyyaml",
+    "requests",
+]
+
+[project.optional-dependencies]
+# Local Diffusers and HF/FAL provider image-generation dependencies.
+# Keep these optional so importing hf_image_gen remains lightweight by default.
+image-gen = [
+    "accelerate>=0.33.0",
+    "diffusers>=0.35.0",
+    "huggingface-hub>=0.24.0",
+    "Pillow>=10.0.0",
+    "protobuf>=4.25.0",
+    "sentencepiece>=0.2.0",
+    "torch>=2.3.0",
+    "transformers>=4.44.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["clients*", "prod_env*", "hf_image_gen*"]

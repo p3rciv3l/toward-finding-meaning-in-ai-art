@@ -1,0 +1,45 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python environments and build output
+.venv/
+venv/
+env/
+*.egg-info/
+build/
+dist/
+
+# Python/runtime caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Notebook/editor/system noise
+.ipynb_checkpoints/
+.DS_Store
+*.swp
+*.swo
+
+# Generated experiment artifacts and provider outputs
+artifacts/
+hf_image_gen/image/*
+!hf_image_gen/image/.gitkeep
+
+# Large FLUX run outputs kept locally or in external storage
+flux_unzipped/
+remote_vae_decoded_latents/
+flux_latents_only.zip
+flux_vae_decoded_latents_vast.zip
+
+# Model/cache files
+*.safetensors
+*.ckpt
+*.onnx
+*.gguf
